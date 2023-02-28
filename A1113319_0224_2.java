@@ -7,7 +7,7 @@ public class A1113319_0224_2{
         Scanner sc = new Scanner(System.in);
         C = sc.nextFloat();
         F = C*9/5+32;
-		   System.out.println ("轉換成華式 = " + F);    
+        System.out.println ("轉換成華式 = " + F);    
 			
     }
 }
