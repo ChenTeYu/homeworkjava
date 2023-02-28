@@ -8,10 +8,10 @@ public class A1113319_0224_1{
         Number = sc.nextInt();
         Calculate = Number % 2;
         if(Calculate == 1){
-		        System.out.println ("該數為奇數");
-			}else{
-		        System.out.println ("該數為偶數");
-			}    
+	        System.out.println ("該數為奇數");
+	}else{
+		System.out.println ("該數為偶數");
+	}    
 			
     }
 }
