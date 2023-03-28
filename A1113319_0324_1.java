@@ -28,8 +28,8 @@ public class A1113319_0324_1 {
 		Animal[] animal = new Animal[4];
 		
 		for (int i = 0; i < animal.length; i++) {
-            animal[i] = new Animal();
-        }
+           		animal[i] = new Animal();
+        	}
 		
 		animal[0].name="雪寶";
 		animal[0].height=1.1;
@@ -57,9 +57,10 @@ public class A1113319_0324_1 {
 			System.out.println("請輸入"+animal[i].name+"的時間x");
 			int x = scanner.nextInt();
 			animal[i].distance(x);
-			System.out.println("是否需要輸入加速度y?(是:輸入1 否:輸入其他數字)");
 			
+			System.out.println("是否需要輸入加速度y?(是:輸入1 否:輸入其他數字)");
 			int check = scanner.nextInt();
+			
 			if(check==1) {
 				System.out.println("請輸入加速度y");
 				double y = scanner.nextDouble();
