@@ -21,8 +21,8 @@ class Animal{
 		return x*rate;
 	}
 }
-public class A1113319_0324_1 {
 
+public class A1113319_0324_1 {
 	public static void main(String[] args) {
 		
 		Animal[] animal = new Animal[4];
