@@ -39,7 +39,7 @@ class human extends Animal {
 	String gender;
 	
 	public human(String name,double height,int weight,int rate,String gender) {
-        super(name, height, weight, rate);
+      		super(name, height, weight, rate);
 		this.gender=gender;
 	}
 	
@@ -100,6 +100,7 @@ public class A1113319_0331 {
 		int x = scanner.nextInt();
 		System.out.println("請輸入雪寶的y加速度(無則輸入0)");
 		int y = scanner.nextInt();
+		
 		if(y==0) {
 			System.out.println("雪寶距離:"+雪寶.distance(x));
 		}else {
