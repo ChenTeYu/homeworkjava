@@ -12,8 +12,8 @@ public class A1113319_0421_2 {
 					+userInput.substring(8,10)+"日");
 		}else if(userInput.matches("\\d{2}/\\d{2}/\\d{4}")){
 			System.out.println(userInput.substring(6,10)+"年"
-								+userInput.substring(0,2)+"月"
-								+userInput.substring(3,5)+"日");
+					+userInput.substring(0,2)+"月"
+					+userInput.substring(3,5)+"日");
 		}else {
 			System.out.println("格式錯誤");
 		}
