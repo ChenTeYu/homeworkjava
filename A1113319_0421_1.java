@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class A1113319_0421_1 {
 
+public class A1113319_0421_1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("輸入電子郵件");
